@@ -1,0 +1,1518 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image: url("./images/bg-img.png");
+    background-position: top-left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 70px 85px 70px;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    margin-right: 60px;
+    /* border: 1px solid pink; */
+} 
+
+.nav {
+    width: 400px;
+    height: 50px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    width: 110px;
+    height: 50px;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav a{
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*########## HERO SECTION ##########*/
+.hero-content {
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.tagline h1{
+    font-size: 55px;
+    color:white;
+    text-align: center;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.hero-cta button{
+    width: 214px;
+    height: 64px;
+    background-color: #00A651;
+    color: white;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    border-color: #00a651;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## SERVICE WRAP SECTION ##########*/
+.service-wrap {
+    padding: 40px 100px 120px 70px;
+}
+
+.service-wrap h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.service-card-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.service-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 480px;
+    min-height: 180px;
+    border-radius: 15px;
+    padding: 30px 35px;
+    background: #f9f9f9;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-grey {
+    background: #f9f9f9;
+}
+
+.card h6 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## STATISTICS SECTION ##########*/
+.statistic-wrap {
+    /* width: 100%;
+    height: 90vh; */
+    background-image: url("./images/world-mapp.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e7e6e6;
+    padding: 70px 100px 120px 70px;
+}
+
+
+ .statistic-wrap h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.statistic-wrap p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 90px; 
+}
+
+.statistics-card-wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+
+.statistics-card {
+    /* border: 1px solid black; */
+    width: 220px;
+    height: 195px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.statistics-card-text p{
+    margin-bottom: 30px;
+}
+
+.statistics-card-text h3{
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.stats-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## POPULAR DESTINATION SECTION ##########*/
+.popular-wrap {
+    padding: 35px; 
+}
+
+.popular-wrap h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.popular-card-wrap {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    height: 500px;
+}
+
+.destination-card {
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    gap: 65px;
+    /* border: 1px solid black; */
+}
+
+.destination-card-text {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.destination-card-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.arr-one {
+    width: 20px;
+    height: 20px;
+    margin-left: 28px;
+}
+
+.arr-two {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.arr-three {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## PACKAGES SECTION ##########*/
+.package-wrap {
+    padding: 70px 100px 120px 70px;
+    background-color: #e7e6e6;
+}
+
+.package-wrap h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tabs {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.tab {
+    padding: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+}
+
+
+.place-card {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+}
+
+.place-card-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+.place-card img{
+    height: 65%;
+    width: inherit;
+}
+
+.place-card-content {
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.place-card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-card-content > p{
+   font-size: 10px;
+   margin-top: 10px;
+   width: 80%;
+}
+
+.place-card-location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+}
+
+.package-wrap button {
+    width: 270px;
+    height: 50px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*########## BOOKING SECTION ##########*/
+.trip-wrap {
+    padding: 70px 200px 120px 150px;
+}
+
+.trip-wrap h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.trip-wrap h5{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.trip-card-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    position: relative;
+}
+
+.booking-card {
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.booking-card-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-image {
+    position: absolute;
+    top: -220px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+  }
+
+.book-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.book-box img{
+    width: 25px;
+    height: 25px;
+}
+
+#yellow-box {
+   background-color: #F0BB1F;
+}
+
+#orange-box {
+    background-color:#F15A2B;
+}
+
+#grey-box {
+    background-color: #006380;
+}
+
+#booking-card-text-heading {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## TESTIMONY SECTION ##########*/
+.testimony-wrap {
+    background-color: #ecf1f0;
+    overflow-x: hidden;
+    padding: 50px 140px 120px 120px;
+}
+
+.testimony-wrap h2{
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 40px;
+   margin-top: 10px;
+}
+
+.testimony-bg {
+    width: 1100px;
+    height: 436px;
+    margin: 0px auto;
+    display: block;
+}
+
+
+.testimony-content {
+    position: relative;
+}
+
+
+.testimony-card {
+    width: 500px;
+    height: 220px;
+    background-color: white;
+    padding: 60px 50px;
+    color: black;
+
+    position: absolute;
+    bottom: -50px;
+    left: 295px;
+
+}
+
+.testimony-card p{
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 2px;
+}
+
+.pp {
+    width: 148px;
+    height: 148px;
+    position: absolute;
+
+    bottom: 120px;
+    right: 480px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*########## SUBSCIBE SECTION ##########*/
+.subscribe-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px 140px 120px 120px;
+}
+
+.container {
+    max-width: 950px;
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.subscribe-box {
+    padding: 55px;
+    background: #9fffec;
+    border-radius: 50px 15px 5px 5px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.subscribe-box h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #5e6282;
+    margin-bottom: 70px;
+}
+
+
+.subscribe-box form{
+   margin-top: 40px;
+}
+
+.subscribe-box form input{
+   width: 421px;
+   height: 53px;
+   background-color: #ffffff;
+   padding-left: 25px;
+   font-size: 15px;
+   border: transparent;
+   margin-right: 15px;
+ }
+
+ .subscribe-box form input::placeholder{
+    color: #39425d;
+ }
+
+ .subscribe-box form button{
+    background: #00A651;
+    border-radius: 8px;
+    border: transparent;
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    transition: .3s;
+ } 
+
+ .message {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+
+    top: -15px;
+    right: -15px;
+}
+
+.sparkle {
+    width: 153px;
+    height: 166px;
+    position: absolute;
+
+    bottom: -60px;
+    right: -60px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########## FOOTER SECTION ##########*/
+#footer-section {
+    padding: 10px 20px 120px 70px;
+}
+
+.footer {
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.5rem;
+}
+
+.footer-content .footer-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer-content h4{
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+}
+
+
+.footer-content li{
+   margin-bottom: 16px;
+}
+
+.footer-content li a{
+    text-decoration: none;
+    color: #5c4d4d;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: #5c4d4d;
+}
+
+.footer-content p{
+    color: #5c4d4d;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.ff{
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;     
+}
+
+.icons a {
+    display: inline-block;
+    font-size: 22px;
+    color: #5c4d4d;
+    margin-right: 5px;
+    transition: all .40s ease;
+}
+
+.icons a:hover {
+   color: #5c4d4d;
+   transform: translateY(-5px);
+}
+
+.app-stores {
+    display: flex;
+}
+
+
+.credit {
+    color: #5e6282;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 500px;
+    width: 100%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*####### MOBILE RESPONSIVENESS ####### */
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px;
+        padding: 10px 4px;
+    }
+    .menu-bar div {
+        width: 40px;
+        height: 4px;
+        background-color: black;
+        margin-bottom: 18px;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+
+    .hero-content {
+        width: 90%;
+    }
+
+    .tagline h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+
+
+
+
+
+
+     /* ############ SERVICE SECTION ############ */
+    .service-card-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .service-wrap {
+        padding: 120px 100px 120px 70px;
+    }
+    
+    .card {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+     /* ############ STATISTICS SECTION ############ */
+    .statistic-wrap h2{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    
+
+    .statistics-card-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .statistic-wrap p {
+        margin-bottom: 40px; 
+    }
+
+
+
+
+
+
+
+
+
+    /* ############ POPULAR DESTINATIONS ############ */
+    .popular-card-wrap {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .destination-card {
+        width: 100%;
+        height: 150px;
+        border-radius: 15px;
+        display: flex;
+        gap: 20px;
+        /* border: 1px solid black; */
+    }
+
+
+    .destination-card img{
+        width: 100px;
+    }
+
+
+    .destination-card-text {
+        gap: 15px;
+    }
+
+    .arr-one {
+        width: 20px;
+        height: 20px;
+        margin-left: 4px;
+    }
+    
+    .arr-two {
+        width: 10px;
+        height: 20px;
+        margin-left: 1px;
+    }
+    
+    
+
+
+
+
+
+
+
+
+     /* ############ PACKAGES SECTION ############ */
+    .package-wrap {
+        padding: 70px 40px 40px 40px;
+        background-color: #e7e6e6;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .tab {
+        width: 150px;
+    }
+    
+    .place-card-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+
+
+    /*
+    .tabs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .tab {
+        width: 150px;
+    }
+    
+    .place-card-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    */
+
+
+
+    .trip-wrap {
+        padding: 50px 30px 70px 40px;
+    }
+
+    .trip-wrap h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .booking-card {
+        width: 350px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .booking-image img{
+        position: absolute;
+        top: 500px;
+        left: -550px;
+        width: 450px;
+        height: 420px;
+      }
+    
+      .trip-card-wrap {
+        height: 600px;
+    }
+    
+
+
+
+
+
+
+    .testimony-wrap h2{
+        font-size: 30px;
+     }
+
+     .testimony-wrap {
+        background-color: #ecf1f0;
+        overflow-x: hidden;
+        padding: 50px 55px 80px 30px;
+    }
+    
+    .testimony-bg {
+        width: 320px;
+        height: 200px;
+    }
+    
+    
+    .testimony-card {
+        width: 250px;
+        height: 150px;
+        background-color: #ffffff;
+        padding: 60px 50px;
+        color: black;
+    
+        position: absolute;
+        bottom: -50px;
+        left: 37px;
+    
+    }
+    
+    .testimony-card p{
+       text-align: center;
+       margin-top: 0.1px;
+       margin-bottom: 0.2px;
+       font-size: 10px;
+    }
+    
+    .pp {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+    
+        bottom: 65px;
+        right: 105px;
+    }
+
+
+
+
+
+
+
+
+
+    .subscribe-wrapper {
+        padding: 5px 80px 40px 80px;
+    }
+    
+
+    .container {
+        max-width: 300px;
+        width: 300px;
+    }
+    
+    .subscribe-box {
+        padding: 30px;
+    }
+    
+    .subscribe-box h2{
+        font-size: 20px;
+        font-weight: 700;
+        color: #5e6282;
+        margin-bottom: 40px;
+    }
+    
+    
+    .subscribe-box form input{
+       width: 240px;
+       height: 43px;
+       background-color: #ffffff;
+       padding-right: -10px;
+       font-size: 13px;
+       border: transparent;
+       margin-bottom: 10px;
+     }
+    
+     .subscribe-box form button{
+        background: #00A651;
+        border-radius: 8px;
+        border: transparent;
+        padding: 12px 35px;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+        transition: .3s;
+        margin-right: -25px;
+     } 
+    
+    .sparkle {
+        width: 123px;
+        height: 126px;
+        position: absolute;
+    
+        bottom: -60px;
+        right: -40px;
+        z-index: -1;
+    }
+    
+
+    .credit {
+        margin-left: 50px; 
+    }
+
+
+
+}
+
+
+
+
+/*####### DESKTOP RESPONSIVENESS ####### */
+@media only screen and (min-width: 600px) {
+    .menu-bar {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1690px){
+    section{
+        padding: 50px 5% 40px;
+    }
+}
+
+
+@media (max-width: 1120px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 2rem;
+    }
+}
+
+
+@media (max-width: 700px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        gap: 2.5rem;
+    }
+
+    .app-stores {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 900px) {
+
+   
+    
+    .nav {
+        display: none;
+      }
+  
+      .profile .star-icon {
+          display: none;
+      }
+    
+    
+    .profile{
+        margin-right: 0px;
+    } 
+
+  
+      .header {
+          display: flex;
+          justify-content: space-between;
+          padding: 40px 25px 85px 70px;
+      } 
+
+      
+
+
+
+
+     
+
+
+
+
+
+      
+      .tagline h1{
+        font-size: 40px;
+        color:white;
+        text-align: center;
+      }
+
+      .hero-content {
+        width: 50%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+      }
+    
+      .hero-text p {
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 30px; 
+      }
+
+      .hero-cta button{
+        width: 200px;
+        height: 55px;
+        background-color: #00A651;
+        color: white;
+        margin: 20px auto;
+        display: block;
+        border-radius: 10px;
+        border-color: #00a651;
+      } 
+
+      
+    
+
+
+
+
+
+
+
+
+     
+      .service-card-wrap {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+      }
+        
+
+
+
+
+
+
+      
+       .statistic-wrap h2{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    
+    .statistic-wrap {
+        padding: 70px 100px 120px 70px;
+    }
+    
+    .statistic-wrap p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 70px; 
+    }
+    
+    .statistics-card-wrap {
+        gap: 30px;
+        justify-items: center;
+    }
+
+      .statistics-card-wrap {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-content: center;
+      }
+
+      .statistics-card {
+        width: 190px;
+        height: 190px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        padding: 30px 35px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .statistics-card-text p{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .statistics-card-text h3{
+        font-weight: bold;
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+
+
+    
+
+
+
+
+
+    
+
+     .popular-wrap h2{
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    
+    .popular-card-wrap .world-map {
+            display: none;
+    }
+
+    
+
+
+
+
+
+
+
+    
+
+     .package-wrap {
+        padding: 35px;
+        
+    }
+
+    .package-wrap h2{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .tabs {
+        gap: 25px;
+        align-items: center;
+    }
+
+    .tab {
+        padding: 30px;
+        width: 110px;
+        height: 40px;
+    }
+
+    .place-card {
+        height: 300px;
+        width: 250px;
+        border-radius: 10px;
+        background-color: #ffffff; 
+    }
+
+    .place-card-wrap {
+        gap: 20px;
+    }
+
+    .place-card-content > p{
+        font-size: 7px;
+        margin-top: 10px;
+        width: 80%;
+     }
+   
+    
+    
+    
+   
+
+
+    
+    
+      .trip-wrap {
+        padding: 70px 70px 80px 40px;
+    }
+    
+    .trip-card-wrap {
+        gap: 5px;
+    }
+
+    .booking-card {
+        width: 400px;
+        height: 150px;
+        border-radius: 15px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .booking-image img{
+        position: absolute;
+        top: 90px;
+        right: -160px;
+        width: 500px;
+        height: 600px;
+      }
+
+    */
+
+
+
+
+
+
+
+
+    
+
+
